@@ -83,7 +83,7 @@ html{
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: white;
+  background-color: transparent;
 
   transition-duration: .25s;
 }
@@ -340,6 +340,8 @@ span{
   font-family: 'Montserrat', sans-serif;
   vertical-align: middle;
 }
+
+
 .home-main2 h3{
   color: black;
   font-size: 30px;
@@ -357,7 +359,7 @@ span{
   position: fixed;
   z-index: 1;
 
-  background-color: white;
+  background-color: transparent;
   overflow-x: hidden;
 }
 
@@ -373,7 +375,7 @@ a{
 
 .sidenav li{
 
-  color: white;
+  color: transparent;
   font-weight:bold;
 }
 
