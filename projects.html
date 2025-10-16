@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamran Khan - Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        #projects {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        #projects h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+
+        .project-card h3 {
+            font-size: 1.2rem;
+            margin: 0 0 10px;
+            color: #222;
+        }
+
+        .project-card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .emoji {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3><span class="emoji">🧠</span>Mixed Signal System PCB Design for Bi-Directional Motor Control with STM32F407 & Mixed-Signal</h3>
+            </div>
+            <div class="project-card">
+                <h3><span class="emoji">⚡</span>PCB_MSPM_V00R00 - ESP32-Based I/O Expansion and Control Board</h3>
+            </div>
+            <div class="project-card">
+                <h3>Master's Thesis – Bio-Inspired Acoustic Sensor System on Nexys A7-100T FPGA</h3>
+            </div>
+            <div class="project-card">
+                <h3>Real-Time Reservoir Computing with Duffing-Type Bio-Sensor on Zynq-7000 FPGA (STEMLab 125-14)</h3>
+            </div>
+            <div class="project-card">
+                <h3>Hopfield-Type Bio-Inspired Sensor System on Zynq-7000 FPGA (STEMLab 125-14)</h3>
+            </div>
+            <div class="project-card">
+                <h3>FIR-Based Peak Detection Module (Integrated with FPGA Bio-Inspired Sensor Systems)</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
